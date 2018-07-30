@@ -5,11 +5,11 @@ cnpm install -g hexo
 cnpm install
 
 
-hexo new "文章标题"
+hexo new "鏂囩珷鏍囬"
 
-本地部署
+鏈湴閮ㄧ讲
 hexo s -g
 
-上传github
+涓婁紶github
 hexo clean
 hexo d -g 
