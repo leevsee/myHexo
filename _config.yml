@@ -1,6 +1,6 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
+## Source: https://github.com/hexojs/hexo/https://haojen.github.io/
 
 # Site
 title: Leeves # your blog title name
@@ -22,7 +22,7 @@ favicon: # your favicon png
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://leevsee.github.io
+url: https://leevsee.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -136,7 +136,9 @@ theme: Anisina
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:leevsee/leevsee.github.io.git
+  repo: 
+    github: git@github.com:leevsee/leevsee.github.io.git
+    coding: git@git.coding.net:Leeves/Leeves.git
   branch: master
 
 
@@ -155,4 +157,5 @@ post-default-img-mobile: http://7xz8pr.com1.z1.glb.clouddn.com/coverPicture.jpg 
 
 # search api , set your custom key
 swiftype_key: 
+
 

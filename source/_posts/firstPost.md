@@ -1,55 +1,48 @@
 ---
 title: 欢迎来到我的博客
-date: 2016-09-28 23:51:09
+date: 2018-07-30 00:53:32
 ---
 个人记录东西的地方。
+
+ヾ(◍°∇°◍)ﾉﾞ加油，要继续努力啊，得把我那个框架搞完才行  
+--- Jul 30th,2018
+
+
+。。。忘了把web service的github地址放上去了。  
+--- Jul 20th,2018
+
+
+哇，有一年多没更新过博客了，一是因为工作需要学习很多东西，二是因为。。。。懒，哈哈。因为最近需要用到ws，故即将更新几篇web service的文章吧  
+--- Jul 16th,2018
+
+
+微信小程序也算是做好了，正在看ES6和Python的，突然看到Kotlin成为第一语言，就上来写个博客吧。还有忘记把多说给换了  
+--- May 19th,2017
+
+
+好久没更新过博客，最近在搞apicloud。久了不写懒了 
+--- March 7th,2017
+
+
+哎 11-02
+
+
+重新温习一下基础知识  10-10
+
+
+重感冒！！---(；′⌒`)  10-03
+
+好烦，好多东西要学  09-28
+
+这两天在看一些东西，没发什么记录，明天发个NoHttp或者Annotations  09-27
+
+
+今天累死，终于看明白了基本使用Retrofit 09-25
+
 
 现在学习Rxjava中，刚看到flatMap。。。
 停止了，需要学习Retrofit，然而得先看下okHTTP是什么鬼，这样学起来才懂前因后果 09-24
 
-今天累死，终于看明白了基本使用Retrofit 09-25
-
-这两天在看一些东西，没发什么记录，明天发个NoHttp或者Annotations  09-27
-
-好烦，好多东西要学  09-28
 
 
 
-下面不用看了，看了你也不懂。
-
-
-
-
-## Quick Start
-
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
-```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
-```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
-```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
-```
-
-More info: [Deployment](https://hexo.io/docs/deployment.html)
