@@ -122,5 +122,5 @@ tags:
 
 
   [1]: https://github.com/TangXiaoLv/TelegramGallery
-  [2]: http://7xz8pr.com1.z1.glb.clouddn.com/picture_selector1.jpg
-  [3]: http://7xz8pr.com1.z1.glb.clouddn.com/picture_selector2.jpg
+  [2]: http://lixin.piaozu.com.cn/picture_selector1.jpg
+  [3]: http://lixin.piaozu.com.cn/picture_selector2.jpg

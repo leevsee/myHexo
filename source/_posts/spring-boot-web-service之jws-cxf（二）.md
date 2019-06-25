@@ -71,9 +71,9 @@ public class CXFCofnig {
 
 然后。。。就完了，是不是很简单！！！比spring ws简单多了。
 这个是wsdl页面：
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/jws_leevesService.png)
+![enter description here][1]
 -  ## 使用soapui测试
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/jws_soapui.png)
+![enter description here][2]
 
 --- 
 --- 
@@ -84,3 +84,9 @@ public class CXFCofnig {
 web service服务端发完了。接下来，再来一篇web service的客户端。这个系列就算完结了。
 
 最后上代码地址：https://github.com/leevsee/ws-jws-new-demo
+
+
+
+[1]: http://lixin.piaozu.com.cn/jws_leevesService.png
+[2]: http://lixin.piaozu.com.cn/jws_soapui.png
+

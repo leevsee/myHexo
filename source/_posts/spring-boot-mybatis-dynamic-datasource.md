@@ -199,10 +199,13 @@ public class DynamicDataSourceAspect {
 ## 5. 测试
 完美通过！！！
 
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/spring_mybatis_dynamic_datasource.png)
+![enter description here][1]
 
 下次，带来个spring mybatis plus的多数据源配置。mybatis plus这个开源库还是不错的。
 
 最后附上，具体代码地址：https://github.com/leevsee/spring-boot-dynamic-datasource
 
+
+
+[1]: http://lixin.piaozu.com.cn/spring_mybatis_dynamic_datasource.png
 

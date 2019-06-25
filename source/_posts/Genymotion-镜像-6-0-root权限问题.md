@@ -1,4 +1,4 @@
-﻿---
+---
 title: Genymotion 镜像 6.0 root权限问题
 date: 2016-11-02 19:08:50
 tags:
@@ -16,7 +16,7 @@ tags:
 
  1. 下载[工具包][3]：里面有`Genymotion-ARM-Translation.zip`和`UPDATE-SuperSU-v2.46.zip`。这两个东西。<br/><br/>
  2. 启动Genymotion 6.0 镜像，首先把`Genymotion-ARM-Translation.zip`拖到镜像中，安装完了，有提示说重启，重开镜像就行。然后`UPDATE-SuperSU-v2.46.zip`也是老样子拖入。
- 
+
 <br/>
 PS：当你把文件拖进去的时候，会出现这个错误：
 ![此处输入图片的描述][4]
@@ -27,8 +27,8 @@ PS：当你把文件拖进去的时候，会出现这个错误：
 ![此处输入图片的描述][5]
 <br/><br/>
 
-  [1]: http://7xz8pr.com1.z1.glb.clouddn.com/%E9%9C%87%E6%83%8A.jpg
-  [2]: http://7xz8pr.com1.z1.glb.clouddn.com/%E5%BE%97%E6%84%8F.jpeg
-  [3]: http://pan.baidu.com/s/1nvk5EXV
-  [4]: http://7xz8pr.com1.z1.glb.clouddn.com/%E9%94%99%E8%AF%AF.png
-  [5]: http://7xz8pr.com1.z1.glb.clouddn.com/%E5%8E%8B%E7%BC%A9.jpg
+[1]: http://lixin.piaozu.com.cn/%E9%9C%87%E6%83%8A.jpg
+[2]: http://lixin.piaozu.com.cn/%E5%BE%97%E6%84%8F.jpeg
+[3]: http://pan.baidu.com/s/1nvk5EXV
+[4]: http://lixin.piaozu.com.cn/%E9%94%99%E8%AF%AF.png
+[5]: http://lixin.piaozu.com.cn/%E5%8E%8B%E7%BC%A9.jpg

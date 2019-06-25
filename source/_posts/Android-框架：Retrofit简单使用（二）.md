@@ -1,4 +1,4 @@
-﻿---
+---
 title: Android-框架：Retrofit简单使用（二）
 date: 2016-09-26 13:01:30
 tags:
@@ -30,7 +30,7 @@ Generate
         @GET("repos/{user}/{repo}/contributors")
         Call<List<GsonArrayExample>> getGitHubSearch(@Path("user") String userName, @Path("repo") String repoName);
     }
-　　
+
 
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("https://api.github.com/")
@@ -38,7 +38,8 @@ Generate
             .build();
         
     GitHubRequestAPI gitHubRequestAPI = retrofit.create(GitHubRequestAPI.class);
-    
+
+
 　　
 
     Call<List<GsonArrayExample>> call = gitHubRequestAPI.getGitHubSearch("square","retrofit");
@@ -50,14 +51,14 @@ Generate
                     Log.i("获得JsonArray中的login：",gsonArrayExample.getlogin);
                 }
             }
-
+    
             @Override
             public void onFailure(Call<List<GsonArrayExample>> call, Throwable t) {
-
+    
                 }
             }
         );   
-    
+
 <br/>
 接下来是JsonObject：
 
@@ -65,7 +66,7 @@ Generate
         @GET("search/users")
         Call<GsonObjectExample> getGitHubSearch(@Query("q") String repoName);
     }
-　　
+
 
     Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("https://api.github.com/")
@@ -73,7 +74,7 @@ Generate
             .build();
         
     GitHubRequestAPI gitHubRequestAPI = retrofit.create(GitHubRequestAPI.class);
-　　
+
 
     Call<GsonObjectExample> call = gitHubRequestAPI.getGitHubSearch("retrofit");
     call.enqueue(new Callback<GsonObjectExample>() {
@@ -85,10 +86,10 @@ Generate
                     Log.i("获得JsonObject中的login",":"+list.get(i).getLogin());
                     }
             }
-
+    
             @Override
             public void onFailure(Call<GsonObjectExample> call, Throwable t) {
-
+    
                 }
             }
         );  
@@ -113,10 +114,10 @@ Generate
 　　　[Retrofit官方网][7]
 
 
-  [1]: http://stackoverflow.com/questions/12289844/difference-between-jsonobject-and-jsonarray
-  [2]: http://7xz8pr.com1.z1.glb.clouddn.com/RetrofitDemo4.jpg
-  [3]: http://7xz8pr.com1.z1.glb.clouddn.com/RetrofitDemo5.jpg
-  [4]: http://7xz8pr.com1.z1.glb.clouddn.com/RetrofitDemo6.jpg
-  [5]: https://leevsee.github.io/2016/09/25/Android-%E6%A1%86%E6%9E%B6%EF%BC%9ARetrofit%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/
-  [6]: http://blog.csdn.net/ljd2038/article/details/51046512
-  [7]: http://square.github.io/retrofit/
+[1]: http://stackoverflow.com/questions/12289844/difference-between-jsonobject-and-jsonarray
+[2]: http://lixin.piaozu.com.cn/RetrofitDemo4.jpg
+[3]: http://lixin.piaozu.com.cn/RetrofitDemo5.jpg
+[4]: http://lixin.piaozu.com.cn/RetrofitDemo6.jpg
+[5]: https://leevsee.github.io/2016/09/25/Android-%E6%A1%86%E6%9E%B6%EF%BC%9ARetrofit%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8%EF%BC%88%E4%B8%80%EF%BC%89/
+[6]: http://blog.csdn.net/ljd2038/article/details/51046512
+[7]: http://square.github.io/retrofit/

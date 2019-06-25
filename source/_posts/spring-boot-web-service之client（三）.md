@@ -71,10 +71,10 @@ PS：这里我是根据url地址生成，也可以先把wsdl保存下来，然�
 
 
 然后`mvn install`生成即可。
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/ws_r_mvn_install.png)
+![enter description here][1]
 
 生成后的代码如下：
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/ws_r_leeves_test.png)
+![enter description here][2]
 
 
 ## 3.ws客户端配置
@@ -143,7 +143,7 @@ public class WSConfig {
 
 ## 4.测试通过
 噔噔，完美通过
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/ws_r_test.png)
+![enter description here][3]
 
 
 
@@ -157,7 +157,7 @@ public class WSConfig {
 
 ## 1.添加依赖
 
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/ws_r_no.jpg)
+![enter description here][4]
 不存在的。。本身jdk自带要什么鬼依赖
 
 
@@ -171,7 +171,7 @@ wsimport -s F:\wsdl -p com.leeves.wsjwsrnewdemo.webservice http://localhost:7000
 // com.leeves.wsjwsrnewdemo.webservice	包路径
 // http://localhost:7007/ws/leevesService.wsdl	wsdl地址
 ```
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/ws_r_wsimport.png)
+![enter description here][5]
 
 把生成的文件放到项目中
 
@@ -213,7 +213,7 @@ public class WSClient {
 
 ## 4.测试
 直接调用，就有数据鸟
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/ws_r_jws_test.png)
+![enter description here][6]
 
 
 
@@ -223,3 +223,15 @@ public class WSClient {
 附上两个代码地址：  
 https://github.com/leevsee/ws-r-new-demo  
 https://github.com/leevsee/ws-jws-r-new-demo
+
+
+
+
+[1]: http://lixin.piaozu.com.cn/ws_r_mvn_install.png
+[2]: http://lixin.piaozu.com.cn/ws_r_leeves_test.png
+[3]: http://lixin.piaozu.com.cn/ws_r_test.png
+[4]: http://lixin.piaozu.com.cn/ws_r_no.jpg
+[5]: http://lixin.piaozu.com.cn/ws_r_wsimport.png
+[6]: http://lixin.piaozu.com.cn/ws_r_jws_test.png
+
+

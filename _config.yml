@@ -58,7 +58,7 @@ ga_domain:
 
 # Sidebar settings
 sidebar-about-description: 6666 # 个人描述
-sidebar-avatar: http://7xz8pr.com1.z1.glb.clouddn.com/icon1.jpg    # use absolute URL
+sidebar-avatar: http://lixin.piaozu.com.cn/icon1.jpg    # use absolute URL
 
 
 # Featured Tags
@@ -152,8 +152,8 @@ clip-avatar: "?imageView2/2/w/300/h/300/interlace/1/q/90"
 clip-home-post-bg: "?imageView2/1/w/800/h/300/interlace/1/q/70"
 
 # post default images
-post-default-img: http://7xz8pr.com1.z1.glb.clouddn.com/postPicture.jpg  #博文默认的图片
-post-default-img-mobile: http://7xz8pr.com1.z1.glb.clouddn.com/coverPicture.jpg  #移动端显示的图片
+post-default-img: http://lixin.piaozu.com.cn/postPicture.jpg  #博文默认的图片
+post-default-img-mobile: http://lixin.piaozu.com.cn/coverPicture.jpg  #移动端显示的图片
 
 # search api , set your custom key
 swiftype_key: 

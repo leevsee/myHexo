@@ -55,9 +55,9 @@ tags:
 ## 3.创建配置类
 生成接收返回Request和Response类  
 我是使用idea，选中Schema右键生产
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsservicejaxb.png)
+![enter description here][1]
 具体类如下：
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsserviceleevesService.png)
+![enter description here][2]
 
 
 
@@ -123,21 +123,21 @@ public class WebServiceEndpoint {
 -  ## 使用soapui测试
 
 添加soap地址：
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsservicesoapui.png)
+![enter description here][3]
 
 
 发起请求：
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsservicesoapui_leeves.png)
+![enter description here][4]
 
 
 后台：
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsserviceleevesService%E6%8E%A5%E5%8F%97.png)
+![enter description here][5]
 
 ---
 ---
 ---
 以上就是正常的一个使用spring ws创建服务端的例子。在spring ws中入参和出参均以Request和Response结尾。
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsserviceleevesService_xsd.png)
+![enter description here][6]
 
 
 那么问题来了，有些webservice的不以Request和Response结尾。肿么办？？？？  
@@ -146,9 +146,9 @@ public class WebServiceEndpoint {
 
 下面我们先看看最终效果：
 这是上面的做的leeveSerivce：
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsserviceleevesService_wsdl.png)
+![enter description here][7]
 这是不以Request结尾的testSerice：
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsservicetestService_wsdl.png)
+![enter description here][8]
 
 那么怎么要来做呢？
 
@@ -272,8 +272,20 @@ public class WebServiceConfig extends WsConfigurerAdapter {
 
 -  ## 使用soapui测试
 完美通过，^.^，下次再带来spring boot ws client客户端
-![enter description here](http://7xz8pr.com1.z1.glb.clouddn.com/wsservicetestService_soapui.png)
+![enter description here][9]
 
 
 
 忘了忘了，补上代码地址：https://github.com/leevsee/ws-new-demo
+
+
+[1]: http://lixin.piaozu.com.cn/wsservicejaxb.png
+[2]: http://lixin.piaozu.com.cn/wsserviceleevesService.png
+[3]: http://lixin.piaozu.com.cn/wsservicesoapui.png
+[4]: http://lixin.piaozu.com.cn/wsservicesoapui_leeves.png
+[5]: http://lixin.piaozu.com.cn/wsserviceleevesService%E6%8E%A5%E5%8F%97.png
+[6]: http://lixin.piaozu.com.cn/wsserviceleevesService_xsd.png
+[7]: http://lixin.piaozu.com.cn/wsserviceleevesService_wsdl.png
+[8]: http://lixin.piaozu.com.cn/wsservicetestService_wsdl.png
+[9]: http://lixin.piaozu.com.cn/wsservicetestService_soapui.png
+
